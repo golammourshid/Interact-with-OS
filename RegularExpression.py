@@ -95,8 +95,8 @@ import re
 # print(result)
 
 # here will use any letter from a to z or A to Z or 0 to 9
-# result = re.search(r"[A-Za-z0-9]la", "plAzam is most wanted 6la")
-# print(result)
+result = bool(re.search(r"[A-Za-z0-9]la", "plazam is most wanted 6lea"))
+print(result)
 
 # here will show the first occurrence of the non letter symbol
 # result = re.search(r"[^A-Za-z]", "plAzam is most wanted 6la")
